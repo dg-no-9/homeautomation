@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Phone Number"
+        android:textColor="@color/txt_color"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/phoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberPassword|phone"
+        android:gravity="center"
+        android:textColor="@color/txt_color"
+        android:text="+9779856036407" >
+    </EditText>
+
+    <Button
+        android:id="@+id/getTemp"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:text="Get Tempreture"
+        android:textColor="@color/txt_color" />
+
+    <Button
+        android:id="@+id/fanOn"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/txt_color"
+        android:text="Turn Fan On" />
+
+    <Button
+        android:id="@+id/fanOff"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/txt_color"
+        android:text="Turn Fan Off" />
+
+    <Button
+        android:id="@+id/fanStatus"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/txt_color"
+        android:text="Fan Status" />
+
+    <Button
+        android:id="@+id/lightOn"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/txt_color"
+        android:text="Light On" />
+
+    <Button
+        android:id="@+id/lightOff"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/txt_color"
+        android:text="Light Off" />
+
+    <Button
+        android:id="@+id/lightStatus"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/txt_color"
+        android:text="Light Status" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="92dp"
+        android:gravity="center"
+        android:text="© Copyright  Benzu"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/txt_color" />
+
+</LinearLayout>
